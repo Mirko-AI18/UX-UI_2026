@@ -1,0 +1,47 @@
+.paso-radio {
+    display: none;
+}
+
+.step {
+    display: none;
+}
+
+#paso1:checked ~ #step1-content {
+    display: block;
+}
+
+#paso2:checked ~ #step2-content {
+    display: block;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:invalid:not(:placeholder-shown) {
+    border-color: #e74c3c;
+}
+
+input:valid:not(:placeholder-shown) {
+    border-color: #2ecc71;
+}
+
+.boton-siguiente {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0c5ab2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

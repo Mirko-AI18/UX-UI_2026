@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: #31138c;
+
+
+}
+
+.card {
+    background-color: #888492;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    color: #00ff37;
+    font-weight: bold;
+}
+
+.card span {
+    color: orange;
+    font-style: italic;
+}

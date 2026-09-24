@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<input type="radio" name="paso" id="paso1" class="paso-radio" checked>
+<input type="radio" name="paso" id="paso2" class="paso-radio">
+
+<div class="step" id="step1-content">
+    <h2>Paso 1: Datos personales</h2>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+
+    <label for="paso2">
+        <span class="boton-siguiente">Siguiente →</span>
+    </label>
+</div>
+
+<div class="step" id="step2-content">
+    <h2>Paso 2: Datos de acceso</h2>
+    <label for="usuario">Usuario:</label>
+    <input type="text" id="usuario" required>
+
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" minlength="6" required>
+
+    <label for="paso1">
+        <span class="boton-siguiente">← Atrás</span>
+    </label>
+
+    <button type="submit">Registrarme</button>
+</div>
+
+
+
+
+
+</body>
+</html>

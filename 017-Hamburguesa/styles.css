@@ -1,0 +1,40 @@
+.navbar {
+    position: relative;
+    background-color: #222;
+    padding: 15px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-toggle-input {
+    display: none;
+}
+
+.menu-toggle-label {
+    cursor: pointer;
+    font-size: 28px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+}
+
+.menu-toggle-input:checked ~ .menu {
+    display: flex;
+}

@@ -1,0 +1,43 @@
+.volver-arriba {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.con-tooltip {
+    position: relative;
+    display: inline-block;
+    background-color: #eee;
+    padding: 10px 20px;
+    margin: 100px;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+.con-tooltip:hover .tooltip {
+    display: block;
+}
+
+p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
